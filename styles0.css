@@ -1,0 +1,90 @@
+/* **************************** tag selector **************************** */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+  color: grey;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #ff4c68;
+}
+/* **************************** class selector **************************** */
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.feature-box {
+  padding: 5%;
+}
+.footer-icon {
+  margin: 20px 10px;
+}
+.form-color {
+  color: #ff4c68;
+  font-family: "Ubuntu", sans-serif;
+}
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+.navbar {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 14px;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 15%;
+  top: 20%;
+}
+
+/* **************************** id selector **************************** */
+#features {
+  padding: 3% 10% 1%;
+  position: relative;
+}
+#footer {
+  padding: 4% 15%;
+}
+#title {
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+  }
+}
